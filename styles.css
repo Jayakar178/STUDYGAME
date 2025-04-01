@@ -21,9 +21,9 @@
     width: 100%; /* Full width */
     top: 0;
     left: 0;
-    background: rgba(17, 17, 17, 0.9); /* Slight transparency */
+    background: rgba(17, 17, 17); /* Slight transparency */
     z-index: 1000; /* Ensure the navbar is above other elements */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth 
     transition: background 0.3s ease-in-out; /* Smooth transition for scroll effect */
   }
 
@@ -78,8 +78,7 @@ nav a.active {
   }
   
   .download-btn {
-    background-color: #00f7ff;
-    color: #111;
+    
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 30px;
@@ -93,7 +92,7 @@ nav a.active {
   
   /* 🔹 Hero Section */
   .hero {
-    background: linear-gradient(135deg, #2E1065, #5F259F, #8028AA, #FF48C4), 
+     background: linear-gradient(135deg, #2E1065, #5F259F, #8028AA, #FF48C4), 
                 url('https://www.transparenttextures.com/patterns/hexellence.png');
     background-size: cover, 100px;
     background-blend-mode: overlay;
@@ -201,7 +200,6 @@ nav a.active {
     display: inline-block;
     margin-top: 20px;
     padding: 14px 30px;
-    background-color: #111;
     color: #00f7ff;
     border-radius: 30px;
     text-decoration: none;
@@ -372,7 +370,6 @@ nav a.active {
     display: inline-block;
     margin-top: 20px;
     padding: 14px 30px;
-    background-color: #111;
     color: #00f7ff;
     border-radius: 30px;
     text-decoration: none;
